@@ -1,0 +1,29 @@
+{
+  "name": "jquery-multitabs",
+  "version": "1.0.0",
+  "description": "The easiest way to get up and running with nested tabs.",
+  "main": "src/js/jquery-multitabs.js",
+  "styles": [
+    "src/css/jquery-multitabs.css"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marco3211/jquery-multitabs.git"
+  },
+  "keywords": [
+    "jquery",
+    "nested",
+    "tabs",
+    "jquery-plugin",
+    "jquery-multitabs"
+  ],
+  "author": "Mark Abdallah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marco3211/jquery-multitabs/issues"
+  },
+  "homepage": "https://github.com/marco3211/jquery-multitabs#readme",
+  "dependencies": {
+    "jquery": "^1.12.4"
+  }
+}
