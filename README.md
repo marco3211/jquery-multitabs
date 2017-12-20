@@ -2,6 +2,16 @@
 
 The easiest way to get up and running with nested tabs. 
 
+## Installation
+
+cdn:
+
+`https://unpkg.com/jquery-multitabs@1.1.0/src/js/jquery-multitabs.js` 
+
+npm:
+
+`npm i jquery-multitabs`
+
 ## Example
 
 ```html
