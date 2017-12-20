@@ -6,13 +6,13 @@ The easiest way to get up and running with nested tabs.
 
 cdn:
 
-`https://unpkg.com/jquery-multitabs@1.1.0/src/js/jquery-multitabs.js` 
+`<script src="//unpkg.com/jquery-multitabs@1.1.0/src/js/jquery-multitabs.js"></script>` 
 
 npm:
 
 `npm i jquery-multitabs`
 
-## Example
+## Usage
 
 ```html
 <div class="tab1">
