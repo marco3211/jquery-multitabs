@@ -1,10 +1,8 @@
 (function($) {
   $.fn.multitabs = function() {
     var _this = $(this);
-    var tabs = _this.children('.tab__header[data-child="false"]').children('div');
-    var childrenTabs = _this.find('.tab__header[data-child="true"]').children('div');
 
-    $(tabs).add(childrenTabs).on('click', function() {
+    $('.tab__header > div').on('click', function() {
       var num;
       var _this = $(this);
       var classNameTab = _this.attr('class').split(' ');
@@ -12,17 +10,9 @@
 
       for (i = 0; i <= classNameTab.length; i++) {
         if (/([\d.]+)/.test(classNameTab[i])) {
-          var isChild = $(_this).parent().data('child');
           num = classNameTab[i].split('-')[1];
-          
-          if (!isChild) {
-            $(tabs).removeClass('tab__header--active');
-            $(_this).addClass('tab__header--active');
-          } else {
-            $(_this).siblings().removeClass('tab__header--active');
-            $(_this).addClass('tab__header--active');
-          }
-
+          _this.siblings().removeClass('tab__header--active');
+          _this.addClass('tab__header--active');
         }
       }
 
