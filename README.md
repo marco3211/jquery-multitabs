@@ -6,7 +6,10 @@ The easiest way to get up and running with nested tabs.
 
 cdn:
 
-`<script src="//unpkg.com/jquery-multitabs@1.1.0/src/js/jquery-multitabs.js"></script>` 
+```html
+<link href="//unpkg.com/jquery-multitabs@1.1.0/src/css/jquery-multitabs.css">
+<script src="//unpkg.com/jquery-multitabs@1.1.0/src/js/jquery-multitabs.js"></script>
+```
 
 npm:
 
@@ -54,7 +57,7 @@ npm:
   </div>
 ```
 
-You can nest unlimited tabs, here are several examples [here](https://jsfiddle.net/marco321/87e3Lg53/).
+You can nest unlimited tabs, here are several [examples](https://jsfiddle.net/marco321/87e3Lg53/).
 
 To get up and running with the plugin, all you have to do is: 
 
