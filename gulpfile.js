@@ -2,7 +2,15 @@ var gulp = require('gulp');
 var minify = require('gulp-minify');
 var cssmin = require('gulp-cssmin');
 var rename = require('gulp-rename');
+var gls = require('gulp-live-server');
 
+// server
+gulp.task('server', function() {
+  var server = gls.static(['examples', 'dist'], 3000);
+  server.start();
+});
+
+// minifiers
 gulp.task('minifyjs', function() {
   gulp.src('./src/js/*.js')
     .pipe(minify({
@@ -21,3 +29,4 @@ gulp.task('minifycss', function() {
 });
 
 gulp.task('default', ['minifyjs', 'minifycss']);
+gulp.task('serve', ['server']);

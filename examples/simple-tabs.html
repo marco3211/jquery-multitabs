@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Simple Tabs</title>
+
+  <link rel="stylesheet" href="./css/jquery-multitabs.min.css">
+</head>
+
+<body>
+  <h1>Simple Tabs Example</h1>
+
+  <div class="tabs">
+    <div class="tab__header">
+      <div class="tab__header-1 tab__header--active">Tab 1</div>
+      <div class="tab__header-2">Tab 2</div>
+      <div class="tab__header-3">Tab 3</div>
+    </div>
+    <div class="tab__content">
+      <div class="tab__content-1 tab__content--active">Sub Tab Content 1</div>
+      <div class="tab__content-2">Sub Tab Content 2</div>
+      <div class="tab__content-3">Sub Tab Content 3</div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./js/jquery-multitabs.min.js"></script>
+  <script>
+    (function () {
+      $('.tabs').multitabs();
+    })();
+  </script>
+</body>
+</html>
