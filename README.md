@@ -67,14 +67,14 @@ A simple tab looks like the following:
 
 ```html
 <div>
-	<div class="tab__header">
-		<div class="tab__header-1 tab__header--active"></div>
-		<div class="tab__header-2"></div>
-	</div>
-	<div class="tab__content">
-		<div class="tab__content-1 tab__content--active"></div>
-		<div class="tab__content-2"></div>
-	</div>
+  <div class="tab__header">
+    <div class="tab__header-1 tab__header--active"></div>
+      <div class="tab__header-2"></div>
+    </div>
+    <div class="tab__content">
+      <div class="tab__content-1 tab__content--active"></div>
+      <div class="tab__content-2"></div>
+    </div>
 </div>
 ```
 
