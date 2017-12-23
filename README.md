@@ -17,6 +17,8 @@ npm:
 
 ## Usage
 
+### HTML
+
 ```html
 <div class="tab1">
   <div class="tab__header">
@@ -58,6 +60,31 @@ npm:
 ```
 
 You can nest unlimited tabs, here are several [examples](https://jsfiddle.net/marco321/87e3Lg53/).
+
+#### Required Markup
+
+A simple tab looks like the following: 
+
+```html
+<div>
+	<div class="tab__header">
+		<div class="tab__header-1 tab__header--active"></div>
+		<div class="tab__header-2"></div>
+	</div>
+	<div class="tab__content">
+		<div class="tab__content-1 tab__content--active"></div>
+		<div class="tab__content-2"></div>
+	</div>
+</div>
+```
+
+- `tab__header` is where the tabs are located 
+- `tab__content` is where the content to the corresponding tab resides
+- `tab__header-1` corresponds to `tab__content-1`
+- `tab__header--active` and `tab__content--active` are both currently showing in other words `display: block;`
+
+
+### JavaScript
 
 To get up and running with the plugin, all you have to do is: 
 
