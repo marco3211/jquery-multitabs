@@ -28,7 +28,7 @@
     "jquery": "^1.12.4 || ^2.2.4 || ^3.2.1"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-cssmin": "^0.2.0",
     "gulp-live-server": "0.0.31",
     "gulp-minify": "^2.1.0",
